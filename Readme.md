@@ -73,7 +73,6 @@ python recommend_movies.py
 Follow the prompts to input your preferences, including movie names and IMDb rating thresholds.
 
 # Examples
-
 1. Mention a detailed prompt( Detailed prompts will yield more relevant and better results): 
     - I want a action movie with imdb:8 ,similar to "Mission: Impossible" and "The Godfather" 
     - I want a action,adventure, thriller movie which involves war and blood shed, it should have a imdb:8
