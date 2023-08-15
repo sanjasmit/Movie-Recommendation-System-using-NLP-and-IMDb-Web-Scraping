@@ -1,6 +1,6 @@
 # Movie Recommendation System using NLP and IMDb Web Scraping
 
-This project implements a sophisticated Movie Recommendation System using Natural Language Processing (NLP) techniques and IMDb web scraping. The system utilizes BERT (Bidirectional Encoder Representations from Transformers) embeddings and IMDb data to provide personalized movie recommendations based on user preferences.
+This project implements a sophisticated Movie Recommendation System using Natural Language Processing (NLP) techniques and IMDb web scraping. The system utilizes BERT (Bidirectional Encoder Representations from Transformers) embeddings and IMDb data to provide personalized movie recommendations based on the input prompt by the user.
 
 ## Table of Contents
 
