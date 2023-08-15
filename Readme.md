@@ -19,7 +19,7 @@ This project implements a sophisticated Movie Recommendation System using Natura
 Movie recommendation systems have gained immense popularity in recent years for providing tailored content to users.
 This project leverages web scraping techniques to extract movie data from IMDb, including titles, descriptions, genres, and 
 IMDb ratings. It then utilizes BERT embeddings for text data and cosine similarity to recommend movies that closely match user 
-preferences.It is a prompt based system wherein the output will dependt on the quality of the prompt.
+preferences. It is a prompt-based system wherein the output will be dependent on the quality of the input prompt.
 
 ## Features
 
@@ -27,7 +27,7 @@ preferences.It is a prompt based system wherein the output will dependt on the q
 - Extracts details about directors and actors associated with each movie.
 - Retrieves additional content details such as descriptions, tag lines, and user reviews.
 - Creates robust movie embeddings using BERT, enabling efficient similarity calculations.
-- Recommends top movies based on prompt based user input, including movie names and IMDb rating thresholds.
+- Recommends top movies based on prompt-based user input, including movie names and IMDb rating thresholds.
 
 ## Prerequisites
 
@@ -49,7 +49,7 @@ To run this project, you\'ll need:
    cd movie-recommendation-system
 
 
-1.Install required libraries:
+1. Install required libraries:
 
 
 ```python
@@ -74,19 +74,19 @@ Follow the prompts to input your preferences, including movie names and IMDb rat
 
 # Examples
 1. Mention a detailed prompt( Detailed prompts will yield more relevant and better results): 
-    - I want a action movie with imdb:8 ,similar to "Mission: Impossible" and "The Godfather" 
-    - I want a action,adventure, thriller movie which involves war and blood shed, it should have a imdb:8
+    - I want an action movie with imdb:8, similar to "Mission: Impossible" and "The Godfather" 
+    - I want an action, adventure, thriller movie which involves war and bloodshed, it should have an imdb:8
 
-2.Mention a movie name and IMDb rating: "Mission: Impossible" imdb:8.0
+2. Mention a movie name and IMDb rating: "Mission: Impossible" imdb:8.0
 
-3.Mention only movie names: "The Matrix", "The Godfather", "John Wick"
+3. Mention only movie names: "The Matrix", "The Godfather", "John Wick"
 
 
-4.Mention IMDb rating only: imdb:7.5
+4. Mention IMDb rating only: imdb:7.5
 
 # Prompt-Based Input
 
-The quality of recommendations directly correlates with the accuracy and detail of your input prompts. The input is prosessed for sentiment analysis and the detailed description provided by the user helps in improving the output. Mentioning specific movie names within double inverted commas and specifying IMDb rating thresholds can yield more relevant and accurate recommendations.
+The quality of recommendations directly correlates with the accuracy and detail of your input prompts. The input is processed for sentiment analysis and the detailed description provided by the user helps improve the output. Mentioning specific movie names within double inverted commas and specifying IMDb rating thresholds can yield more relevant and accurate recommendations.
 
 # Author
 
@@ -96,7 +96,7 @@ GitHub: github.com/sanjasmit
 
 # Acknowledgements
 
-This project is based on the concept of leveraging NLP and web scraping for movie recommendations. The IMDb website serves as the data source for movie information.
+This project is based on the concept of leveraging NLP and web scraping, using movie descriptions mentioned in the input prompt as well as detailed user input for movie recommendations. The IMDb website serves as the data source for movie information.
 
 # License
 
